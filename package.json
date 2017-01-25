@@ -1,0 +1,30 @@
+{
+  "name": "nightshirt",
+  "version": "0.1.0",
+  "description": "Immutable.js records for TypeScript",
+  "main": "dist/index.js",
+  "repository": "git://github.com/facebook/immutable-js.git",
+  "author": "Eric Naeseth <eric@naeseth.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp",
+    "dev": "gulp watch",
+    "test": "mocha -r ts-node/register test.ts",
+    "lint": "tslint test.ts src/*.ts"
+  },
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/mocha": "^2.2.38",
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.4",
+    "merge2": "^1.0.3",
+    "mocha": "^3.2.0",
+    "ts-node": "^2.0.0",
+    "tslint": "^4.3.1",
+    "typescript": "^2.1.5"
+  },
+  "dependencies": {
+    "immutable": "~3"
+  }
+}
