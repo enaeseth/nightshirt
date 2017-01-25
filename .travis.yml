@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- stable
+- 5
+script: yarn build && yarn test && yarn run lint
+deploy:
+  provider: npm
+  email: eric@naeseth.com
+  api_key:
+    secure: XeWNv9In998dR+xoTxa06z1AFCD2sa0+oLdIJs9NQWntAkN9VEftM8F44sOXgcB4AfYEvnMf144Gk2wglayeu+y6Vq2ySHRyI1/LgXT4XyYSIMAOZvHcJHpY3QVdDTnmpPBl0u16i2AQF1c6GWSEfkt8VglH8w27LM9JT5rev3cnrdzHw6tDZ9AZULsFqZx6NU+MWkr1PYQG3HeoMyndviuzNN7d4NfJENd/LSC/CxfHpHD+DDBoyG3/XPB/ZUKASui4UhHZYYyQ6vn327Zx1MI1tcPbNQZWBPysHkkYlBA//UqNjOdHYc/i6APO7lT7hYdwM+2Zzw5Zxeh5LZwGvTkVnvb1FT9B4+3ka+kYgAfeglu8t8YSuadKHDqaaPqPVqM5+TdaB+8zHM/f10YhWhyOQ5AlWh3NJ/d9ySi4pCG4MA4ahw7Fnfo5ZqmCctrwZm1umUcOqzjnzqCc1+mNOiMWvCUKOYNaaXHcHMkYDqBTgfuZKYuWe3/ECG5pensv6tMyKSTD6wxfIBnTK6KZ2yDaTAuNR6KCu03xYjDzSmQ4CytOXos96TO0LrXtm2QyfnpWU2bvsZy9C1Zp3agiGYy4FLkegH3C72VDNDuYCKVojjk5tCUDOAkXoPizTryZGGy1Rhv1TVTkxexwgCbyaoS3wy9dnswRxbsDpo64w5A=
+  on:
+    tags: true
+    repo: enaeseth/nightshirt
