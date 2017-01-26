@@ -11,3 +11,4 @@ deploy:
   on:
     tags: true
     repo: enaeseth/nightshirt
+    node: stable
