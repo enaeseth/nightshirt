@@ -1,6 +1,11 @@
 nightshirt
 ==========
 
+
+[![build status](https://img.shields.io/travis/enaeseth/nightshirt.svg)](https://travis-ci.org/enaeseth/nightshirt)
+[![npm version](https://img.shields.io/npm/v/nightshirt.svg)](https://www.npmjs.com/package/nightshirt)
+[![MIT-licensed](https://img.shields.io/npm/l/nightshirt.svg)](https://github.com/enaeseth/nightshirt/blob/master/License.markdown)
+
 nightshirt lets you define strongly-typed [Immutable.js][immutable] [Records][record] in [TypeScript][ts].
 
 **nightshirt requires [TypeScript 2.1][ts21], as it uses `keyof` and lookup types.**
