@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Immutable.js records for TypeScript",
   "main": "dist/index.js",
+  "typings": "dist/index",
   "repository": {
     "type": "git",
     "url": "https://github.com/enaeseth/nightshirt.git"
